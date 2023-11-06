@@ -30,6 +30,9 @@ namespace Lab_5
                 Console.WriteLine(A+B);
 
             Console.ReadKey();
+
+            if (op == "/")
+                Console.WriteLine(A / B); 
         }
     }
 }
