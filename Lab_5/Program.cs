@@ -28,11 +28,12 @@ namespace Lab_5
 
             if (op == "+")
                 Console.WriteLine(A+B);
-
-            Console.ReadKey();
+    
 
             if (op == "/")
-                Console.WriteLine(A / B); 
+                Console.WriteLine(A / B);
+
+            Console.ReadKey();
         }
     }
 }
