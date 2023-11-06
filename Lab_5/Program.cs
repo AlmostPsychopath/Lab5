@@ -18,6 +18,9 @@ namespace Lab_5
             Console.WriteLine("Select operation + - * /");
             string op = Console.ReadLine();
             Console.ReadKey();
+
+            if (op == "/")
+                Console.WriteLine(A / B); 
         }
     }
 }
